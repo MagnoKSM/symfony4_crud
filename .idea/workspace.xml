@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47e24030-2189-4f41-8211-b8abae5a4f5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hello/formulario.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/produto/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/produto/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/produto/update.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/produto/view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47e24030-2189-4f41-8211-b8abae5a4f5d" name="Default Changelist" comment="" />
+    <ignored path="../../.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -229,7 +220,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="601" />
     <option name="y" value="41" />
     <option name="width" value="762" />
@@ -258,7 +249,8 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.idea" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,18 +276,18 @@
       <updated>1551325523079</updated>
       <workItem from="1551325528933" duration="4122000" />
       <workItem from="1551553184738" duration="6579000" />
-      <workItem from="1551654276121" duration="15146000" />
+      <workItem from="1551654276121" duration="15336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25847000" />
+    <option name="totallyTimeSpent" value="26037000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="601" y="41" width="762" height="688" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45014244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,7 +305,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.042735044" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.022692889" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
