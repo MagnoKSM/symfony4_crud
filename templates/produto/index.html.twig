@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Listagem  de Produtos -
+{% endblock %}
+
+{% block body %}
+
+    {% for flashMessage in app.session.flashbag.get('success') %}
+        <div class="alert alert-success">
+            {{ flashMessage }}
+        </div>
+    {% endfor %}
+
+    {% for flashMessage in app.session.flashbag.get('warning') %}
+        <div class="alert alert-warning">
+            {{ flashMessage }}
+        </div>
+    {% endfor %}
+
+    <h1>Listando Produtos</h1>
+    <hr>
+    <div>
+        <div class="col-md-12" >
+            <a href="{{ path('cadastrar_produto') }}" class="btn btn-primary btn-lg pull-right">Add Product</a>
+        </div>
+    </div>
+    <table class="table table-stripe table-hover mt-3">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for produto in produtos %}
+                <tr>
+                    <td>{{ produto.id }}</td>
+                    <td>{{ produto.name }}</td>
+                    <td>€ {{ produto.price|number_format(2, ",", ".") }}</td>
+
+                    <td>
+                        <a class="btn btn-sm btn-warning" href="{{ path('show_product', {'id': produto.id}) }}"><i class="fa fa-eye"></i> </a>
+                        <a class="btn btn-sm btn-success" href="{{ path('edit_product', {'id': produto.id}) }}"><i class="fa fa-pencil"></i> </a>
+                        <a class="btn btn-sm btn-danger btn-delete-product" href="{{ path('delete_product', {'id': produto.id}) }}"><i class="fa fa-trash"></i> </a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $(".btn-delete-product").click(function(ev){
+                ev.preventDefault();
+
+                var url = $(this).prop("href");
+
+                if (confirm("Delete this Product?")) {
+                    window.location = url;
+                }
+            });
+        });
+
+    </script>
+{% endblock %}

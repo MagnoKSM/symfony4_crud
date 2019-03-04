@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Edit Register Product
+{% endblock %}
+
+{% block body %}
+    <h1> Edit Register Product - <smal>{{ produto.name }}</smal></h1>
+    <hr>
+    {% include "produto/_form.html.twig" %}
+{%  endblock %}
