@@ -1,13 +1,13 @@
 
 ###> symfony/framework-bundle ###
 /.env.local
-/.idea
-/.env
 /.env.local.php
 /.env.*.local
 /public/bundles/
 /var/
 /vendor/
+/.idea
+/.env
 ###< symfony/framework-bundle ###
 
 ###> symfony/web-server-bundle ###
